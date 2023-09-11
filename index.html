@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Anime verse</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav">
+        <ul class="nav_List v-class">
+            <div class="logo"><img src="./img/logo.png" alt="AnimeVerse"></div>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#popular">NEWS</a></li>
+            <li><a href="./pdf/GO.pdf" target="_blank">FOREST OFFICERS</a></li>
+            <li><a href="#dub-sub">REPORT</a></li>
+            <li><a href="#request-anime">ABOUT US</a></li>
+        </ul>
+        <div class="right_nav v-class">
+            <a href="./Login/index.html"><button class="btn-ln btn-nav btn-small">Login</button></a>
+            <a href="./SignUp/SignUp.html"><button class="btn-sp btn-nav btn-small">Signup</button></a>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="firstsection background">
+        <video autoplay loop muted plays-inline>
+            <source src="/videos/videoplayback.mp4" type="video/mp4">
+        </video>        
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Namm Vanam</p>
+                <p class="text-small">"Welcome to our website, dedicated to raising awareness about critical environmental issues in Tamil Nadu, with a primary focus on reporting incidents of animal poaching and addressing water scarcity concerns. While we recognize the significance of environmental awareness and its role in safeguarding our natural world, our primary mission revolves around combating these pressing issues. We invite you to join us in our efforts to protect Tamil Nadu's precious wildlife and ensure a sustainable water future. Together, we can be the change our region desperately needs."</p>
+                <div class="buttons">
+                    <a href="https://tnpcb.gov.in/environmental-awareness.php"><button class="btn bt-naruto"></button></a>
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                <img src="./img/bg1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="body secondsection background" id="popular">
+        <h1>NEWS</h1>
+        <div class="bd-container">
+            <!-- CARD FIRST HTML -->
+            <a href="./articles/water.mhtml"><div class="card">
+                <img src="./img/water.jpg" alt="One Piece" class="card-img">
+                <div class="intro">
+                    <h1>Water Scarcity</h1>
+                    <p>Click here to see article</p>
+                </div>
+            </div>
+            </a>
+            <!-- CARD SECOND HTML -->
+            <a href="./articles/encr.mhtml"><div class="card">
+                <img src="./img/encroachment.jpg" alt="Naruto" class="card-img">
+                <div class="intro">
+                    <h1>Encroachmnt</h1>
+                    <p>Click here to see article</p>
+                </div>
+            </div>
+            </a>
+            <!-- CARD THIRD HTML -->
+            <a href="./articles/ani.mhtml"><div class="card">
+                <img src="./img/Animal.webp" alt="Dragon Ball Z" class="card-img">
+                <div class="intro">
+                    <h1>Animal Poaching</h1>
+                    <p>Click here to see article</p>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="page-three-box" id="dub-sub">
+        <div class="split left">
+            <h1 class="page-three-h1">WATER SCARCITY</h1>
+            <a href="./Report/Water.html" class="page-three-btn page-three-btn1">REPORT HERE</a>
+        </div>
+        <div class="split right">
+            <h1 class="page-three-h1">ANIMAL POACHING</h1>
+            <a href="./Report/Water.html" class="page-three-btn page-three-btn2">REPORT HERE</a>
+        </div>
+    </div>
+
+    <div class="page-four-container" id="request-anime">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74779.90166835306!2d77.02546734690638!3d10.166664226430859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b079b24df84d445%3A0xb6c4daffe96eb73!2sWestern%20Ghats!5e1!3m2!1sen!2sin!4v1694332872040!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    
+    <footer>
+        <p class="footer-copyright">
+            Copyright &copy; 2023 Namm Vanam Team - All right reserved
+        </p>
+    </footer>
+
+    <script src="./js/hamburger.js"></script>
+    <script src="./js/sub_dub.js"></script>
+    <script src="./js/sub_dub.js"></script>
+</body>
+
+</html>
